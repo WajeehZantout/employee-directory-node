@@ -3,5 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Wajeeh Zantout",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.14.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
 }
