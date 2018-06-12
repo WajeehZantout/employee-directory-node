@@ -1,0 +1,8 @@
+type Employee {
+  id: ID! @unique
+  firstName: String!
+  lastName: String!
+  jobTitle: String!
+  phoneNumber: String!
+  createdAt: DateTime!
+}
