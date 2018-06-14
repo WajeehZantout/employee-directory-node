@@ -17,9 +17,9 @@ cd employee-directory-node
 yarn install
 ```
 
-### 2. Deploy Prisma
+### 2. Deploy the Prisma database service
 
-Create a `.env` file in the root directory of the project and fill the following:
+Create a `.env` file in the root directory of the project and fill in the following:
 
 ```sh
 PRISMA_ENDPOINT=[VALUE]
