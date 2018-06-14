@@ -1,6 +1,6 @@
 # employee-directory-node
 
-A basic Employee Database CRUD application using Node.js, GraphQL and Prisma.
+A basic employee directory application using Node.js, GraphQL and Prisma.
 
 ## Usage
 
@@ -8,17 +8,22 @@ A basic Employee Database CRUD application using Node.js, GraphQL and Prisma.
 
 ```sh
 git clone https://github.com/WajeehZantout/employee-directory-node
+```
+
+Then run:
+
+```sh
 cd employee-directory-node
 yarn install
 ```
 
 ### 2. Deploy Prisma
 
-Create a `.env` file and fill the following:
+Create a `.env` file in the root directory of the project and fill the following:
 
 ```sh
-PRISMA_ENDPOINT=[PRISMA_ENDPOINT]
-PRISMA_SECRET=[PRISMA_SECRET]
+PRISMA_ENDPOINT=[VALUE]
+PRISMA_SECRET=[VALUE]
 ```
 
 Then run :
@@ -27,7 +32,7 @@ Then run :
 prisma deploy
 ```
 
-### 3. Start the server & open Playground
+### 3. Start the server & open GraphQL Playground
 
 ```sh
 yarn start
