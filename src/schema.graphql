@@ -1,3 +1,6 @@
+# import Employee from "./generated/prisma.graphql"
+
 type Query {
   info: String!
+  employees: [Employee!]!
 }
