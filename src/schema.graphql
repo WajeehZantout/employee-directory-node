@@ -8,4 +8,5 @@ type Query {
 
 type Mutation {
   addEmployee(firstName: String!, lastName: String!, jobTitle: String!, phoneNumber: String!): Employee!
+  removeEmployee(id: String!): Employee
 }
