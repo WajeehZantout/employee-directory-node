@@ -17,19 +17,13 @@ cd employee-directory-node
 yarn install
 ```
 
-### 2. Deploy the Prisma database service
+### 2. Add Prisma config
 
 Create a `.env` file in the root directory of the project and fill in the following:
 
 ```sh
-PRISMA_ENDPOINT=[VALUE]
-PRISMA_SECRET=[VALUE]
-```
-
-Then run :
-
-```sh
-prisma deploy
+PRISMA_ENDPOINT=https://eu1.prisma.sh/wajeeh-zantout/employee-directory/dev
+PRISMA_SECRET=mysecret123
 ```
 
 ### 3. Start the server & open GraphQL Playground
