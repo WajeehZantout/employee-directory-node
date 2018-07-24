@@ -1,8 +1,8 @@
-# import Employee from "./generated/prisma.graphql"
+# import Employee, EmployeeOrderByInput from "./generated/prisma.graphql"
 
 type Query {
   info: String!
-  employees: [Employee!]!
+  employees(orderBy: EmployeeOrderByInput): [Employee!]!
   employee(id: String!): Employee
 }
 

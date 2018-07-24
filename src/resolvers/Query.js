@@ -3,7 +3,7 @@ function info() {
 }
 
 function employees(root, args, context, info) {
-  return context.db.query.employees({}, info);
+  return context.db.query.employees({ orderBy: args.orderBy }, info);
 }
 
 function employee(root, args, context, info) {
